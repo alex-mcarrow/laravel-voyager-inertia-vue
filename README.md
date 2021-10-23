@@ -1,4 +1,5 @@
-# ЭТО СМЕСЬ LARAVEL BREEZE (INERTIA + VUE) + VOYAGER (admin area for Laravel)
+# ЭТО СМЕСЬ\
+# LARAVEL BREEZE (INERTIA + VUE) + VOYAGER (admin area for Laravel)
 
 Создано, чтобы руками ничего не тянуть, не настраивать.\
 Скачал, обновил, пишешь сайт.\
