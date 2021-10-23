@@ -1,6 +1,6 @@
 ## КАК ЭТОГО ФРАНКЕНШТЕЙНА ЗАПУСКТЬ?
 
-1. composer install
+1. composer update
 2. npm install
 3. npm run dev || npm run prod
 4. переименовать .env.example -> .env
