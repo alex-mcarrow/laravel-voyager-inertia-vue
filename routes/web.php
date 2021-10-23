@@ -28,6 +28,8 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+//роуты авторизации, можно выключать на проектах, где нет авторизации пользователей, а только админка
+//TODO причесать базовые шаблоны, чтобы не вылетали при отключении
 require __DIR__.'/auth.php';
 
 //voyager admin
