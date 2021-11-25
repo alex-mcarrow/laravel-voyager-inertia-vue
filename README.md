@@ -12,5 +12,8 @@
 4. переименовать .env.example -> .env
 5. php artisan key:generate
 6. настроить БД
-7. php artisan voyager:install
-8. php artisan voyager:admin your@email.com --create
+
+#### Если база полностью с нуля была
+
+8. php artisan voyager:install
+9. php artisan voyager:admin your@email.com --create
