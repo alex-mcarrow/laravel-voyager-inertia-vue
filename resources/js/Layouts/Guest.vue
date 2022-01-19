@@ -15,11 +15,22 @@
 <script>
 import BreezeApplicationLogo from '@/Components/ApplicationLogo.vue'
 import { Link } from '@inertiajs/inertia-vue3';
+import { useToast } from "vue-toastification";
 
 export default {
     components: {
         BreezeApplicationLogo,
         Link,
+        useToast
+    },
+    data() {
+        const toast = useToast()
+        toast.success("Зырь чо покажу - это тост! За молодожёнов!", {
+            timeout: 5000,
+        })
+        return {
+            toast
+        }
     }
 }
 </script>
